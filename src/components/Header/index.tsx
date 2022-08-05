@@ -8,7 +8,6 @@ interface HeaderProps {
   onOpenNewTransactionsModal: () => void
 }
 
-
 export const Header = ({ onOpenNewTransactionsModal }: HeaderProps) => {
   return (
     <Container>
